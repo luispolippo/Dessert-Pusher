@@ -79,7 +79,7 @@
             android:id="@+id/revenue_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='@{"$" + revenue.toString()'
+            android:text='@{"$" + revenue.toString()}'
             android:textColor="@color/green"
             android:textSize="@dimen/large_text_size"
             app:layout_constraintBottom_toTopOf="@id/margin_bottom_guide"
